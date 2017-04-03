@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
-seedDB();
+// seedDB();
 
 // CORS support
 app.use(function(req, res, next){

@@ -1,0 +1,21 @@
+
+    <div class="ui container content">
+      <h1 class="ui header">shop<span class="sub header">Always carrying the best quality, these are some of the products we currently have in store.</span></h1>
+      <div class="ui divider"></div>
+      <div class="ui icon input">
+        <input ng-model="search" type="text" placeholder="Search...">
+        <i class="inverted circular search link icon"></i>
+      </div>
+
+      <div class="ui relaxed doubling stackable grid">
+        <div ng-repeat="result in results | filter:myFilter" class="four wide column">
+          <a ng-click="show()" href="#product">
+            <img class="ui medium centered rounded image" src="{{ result.image }}">
+            <div class="ui list">
+              <p class="item"><strong>{{ result.name }}</strong></p>
+              <p class="item"><span class="price">{{ result.price }} CAD</span></p>
+            </div>
+         </a>
+        </div>
+       </div>
+     </div>

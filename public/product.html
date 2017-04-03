@@ -1,0 +1,17 @@
+<div class="ui container content">
+  <h1 class="ui header">{{ currentProduct.name }}</h1>
+  <div class="ui divider"></div>
+
+  <div class="ui relaxed stackable doubling centered grid">
+    <div class="eight wide column">
+      <img class="ui large rounded image" src="{{ currentProduct.image }}">
+    </div>
+    <div class="six wide column">
+      <div class="ui list product_info">
+        <p class="item description">{{ currentProduct.description }}</p>
+        <p class="item price">{{ currentProduct.price }} CAD</p>
+      </div>
+    </div>
+  </div>
+
+</div>

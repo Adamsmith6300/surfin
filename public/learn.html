@@ -1,0 +1,19 @@
+
+
+<div class="ui container content">
+  <h1 class="ui header">learn<span class="sub header">Some quick tips we could all use!</span></h1>
+  <div class="ui divider"></div>
+
+  <div class="ui centered doubling stackable grid">
+    <div class="two column wide">
+      <button class="ui black left button" ng-click="back()"><i class="angle left icon"></i></button>
+    </div>
+    <div class="twelve wide column">
+      <iframe height="480" width="100%" ng-src="{{ videos[currentVideo] }}" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+    </br>
+    </div>
+    <div class="two column wide">
+      <button class="ui black right button" ng-click="next()"><i class="angle right icon"></i></button>
+    </div>
+  </div>
+</div>

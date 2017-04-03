@@ -1,0 +1,150 @@
+/*******************************/
+/*menu styling and top banner*/
+/*******************************/
+.nav.menu {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+  border: none;
+  transition: all 1.5s;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s:
+}
+
+.nav.menu .header.item {
+  color: #66CCCC;
+  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.nav.menu a.item {
+  color: #66CCCC;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.nav.menu a.item:hover {
+  color: #66CCCC;
+}
+
+.beach {
+  background-image: url("https://images.unsplash.com/photo-1469300856708-8e29a6c85ccc?dpr=1&auto=format&fit=crop&w=1500&h=1002&q=80&cs=tinysrgb&crop=");
+  background-position: 0% 38%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33%;
+  width: 100%;
+}
+
+/*******************************/
+/*general content for each page*/
+/*******************************/
+.content.container {
+  margin-top: 20px;
+  width: 1300px;
+}
+
+.content .grid {
+  margin: 15px auto;
+  width: 100%;
+}
+
+.grid a {
+  color: black;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.ui.medium.centered.image {
+  margin-top: 40px;
+}
+
+.content .sub {
+  font-family: "Work Sans", sans-serif;
+}
+
+.content.container div.wide.column {
+  padding: 0;
+}
+
+.content.container .header {
+  text-transform: uppercase;
+}
+
+.ui.list .item {
+  text-align: center;
+}
+
+.content.container p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/*******************************/
+/*show product page*/
+/*******************************/
+.content.container .ui.list.product_info {
+  margin-top: 33%;
+}
+
+/*******************************/
+/*learn page*/
+/*******************************/
+.grid .ui.black.button {
+  border-radius: 0;
+  background-color: rgba(0,0,0,0);
+  height: 100px;
+  left: 17px;
+  padding: 0px;
+  position: relative;
+  top: 33%;
+  width: 45px;
+}
+
+.grid .ui.black.button:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.ui.black.button:hover .angle {
+  color: white;
+}
+
+.ui .angle {
+  color: black;
+  font-size: 25px;
+}
+
+
+/*********************/
+/*mobile adjustments*/
+/********************/
+@media (max-width: 500px){
+  .content.container .ui.list.product_info {
+    margin-top: 0;
+  }
+
+  .nav.menu {
+    background-color: #66CCCC;
+  }
+
+  .nav.menu .header.item {
+    color: white;
+  }
+
+  .nav.menu a.item {
+    color: white;
+  }
+
+  .ui.black.button.right {
+    top: -570px;
+    left: 270px;
+    width: 100px;
+    height: 45px;
+  }
+
+  .ui.black.button.left {
+    width: 100px;
+    height: 45px;
+    left: 0px;
+  }
+}

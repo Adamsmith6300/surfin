@@ -1,6 +1,6 @@
 $(window).scroll(function(){
 
-  if( $(window).width() > 500) {
+  if( $(window).width() > 600) {
     if (elementInViewport2(document.querySelector('.beach'))){
       $(".nav.menu").css("background-color", "rgba(0,0,0,0)");
       $(".nav.menu .header.item").css("color", "#66CCCC");

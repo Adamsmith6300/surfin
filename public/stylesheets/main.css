@@ -125,6 +125,7 @@
 
   .nav.menu {
     background-color: #66CCCC;
+    width: 600px;
   }
 
   .nav.menu .header.item {
@@ -136,8 +137,8 @@
   }
 
   .ui.black.button.right {
-    top: -570px;
-    left: 270px;
+    top: -560px;
+    left: 260px;
     width: 100px;
     height: 45px;
   }

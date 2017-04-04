@@ -118,7 +118,7 @@
 /*********************/
 /*mobile adjustments*/
 /********************/
-@media (max-width: 500px){
+@media screen and(max-width: 600px){
   .content.container .ui.list.product_info {
     margin-top: 0;
   }
